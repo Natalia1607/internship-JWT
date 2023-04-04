@@ -1,0 +1,6 @@
+docker pull dpage/pgadmin4:latest  
+docker run --name user-db -e POSTGRES_PASSWORD=password97 -d postgres
+docker run -d or docker compose up (запускаем или создаём)
+docker compose down (остановить)
+docker ps (посмотреть контейнеры)
+docker inspect ID postgres
